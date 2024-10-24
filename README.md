@@ -4,4 +4,5 @@
 4. conda create -n UPC python=3.12
 5. conda activate UPC
 6. cd path-to-this-repo-on-your-PC
-7. python gui.py
+7. pip install -r requirements.txt
+8. python gui.py
