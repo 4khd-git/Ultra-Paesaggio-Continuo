@@ -112,7 +112,7 @@ while True:
     if event == "-PROCESS_MODE-":
         new_layout = create_layout(values["-PROCESS_MODE-"], values.get("-CLASS_SELECTION-", 'Vegetation'))
         window.close()  # Close the current window
-        window = sg.Window("Video Processing", new_layout, icon=custom_icon)  # Create a new window with the new layout
+        window = sg.Window("4KHD Ultra Paesaggio Continuo", new_layout, icon=custom_icon)  # Create a new window with the new layout
 
     if event == "Preview" and video_path and values["-PROCESS_MODE-"] != ".geopeg":
         cap = cv2.VideoCapture(video_path)
